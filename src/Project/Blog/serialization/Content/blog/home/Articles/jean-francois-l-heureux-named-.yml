@@ -1,0 +1,62 @@
+﻿---
+ID: "3b4f023e-0a28-435b-82a8-6a765be61c37"
+Parent: "634ea3d6-c5d6-4254-adc5-d53db776c136"
+Template: "1ffe6566-2d56-4113-894b-4212640f19e9"
+Path: "/sitecore/content/blog/home/Articles/jean-francois-l-heureux-named-sitecore-mvp-for-a-second-year"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Jean-François L'Heureux Named Sitecore MVP for a Second Year"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T165112Z
+    - ID: "350be29e-d525-4c42-b3dd-63f9fedd03b4"
+      Hint: intro
+      Value: |
+        <p>Today is a cheerful day for the Sitecore community. The awaited 2018 MVP awards are unveiled. 329 individuals from all around the world are celebrating with their peers after being awarded the title. I am thankful to be part of this group!</p>
+        <p><a href="https://www.sitecore.com/mvp"><img src="https://www.jflh.ca/img/Sitecore_MVP_logo_Technology_2018.jpg" alt="Sitecore Technology MVP 2018 Logo" class="center-image" /></a></p>
+    - ID: "3b04ca24-900c-4c54-a12a-e6338f6f3066"
+      Hint: tags
+      Value: Sitecore|MVP
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{AF32C98B-C828-42AF-A649-74C1DE3303FB}"
+    - ID: "5918a967-6c5c-447c-bccc-3c19354e98f3"
+      Hint: date
+      Value: January 31, 2018
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "77897b17-aece-493d-bc3c-97c76fee394b"
+      Hint: body
+      Value: |
+        <p>Today, I was named Sitecore Technology MVP 2018. Exactly 1 year after I was awarded the 2017 title.</p>
+        
+        <p>This is the reward obtained from continuous effort with and for the Sitecore community: Writing blog posts, helping others on Sitecore Slack and Sitecore Stack Exchange, organizing the Sitecore User Group Quebec, and contributing to open source modules.</p>
+        
+        <p>The nice part is that it is not that much effort. It is passion. It makes me happy to share my knowledge. I learn a lot from this involvement. It is fun because the Sitecore community is welcoming, inclusive, vibrant, and shares everything.</p>
+        
+        <p>A big thanks to the Sitecore community and all my friends who recommended me for the Sitecore MVP 2018 nomination.</p>
+        
+        <p>See you in Orlando!</p>
+    - ID: "9c2a9043-aac9-408c-9a90-a1ff12b3efbe"
+      Hint: title
+      Value: "Jean-François L'Heureux Named Sitecore MVP for a Second Year"
+    - ID: "fe700ca1-c658-4320-84e0-dbf9c39bf735"
+      Hint: author
+      Value: "Jean-François L'Heureux"

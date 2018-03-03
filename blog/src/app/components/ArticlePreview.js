@@ -5,6 +5,7 @@ import { Text, RichText } from "@sitecore-jss/sitecore-jss-react";
 class ArticlePreview extends React.Component {
   render() {
     const articleUrl = "/articles/" + this.props.article.name;
+    const tags = this.props.article.fields.tags.value.split('|').join(', ');
 
     return (
       <article className="post-preview">
@@ -15,7 +16,7 @@ class ArticlePreview extends React.Component {
           Posted on <Text tag="span" field={this.props.article.fields.date} /> by <Text tag="span" field={this.props.article.fields.author} />
         </p>
         <p className="post-meta">
-          Tags: <Text tag="span" field={this.props.article.fields.tags} />
+          Tags: {tags}
         </p>
         <div className="post-entry">
           <RichText field={this.props.article.fields.intro} />

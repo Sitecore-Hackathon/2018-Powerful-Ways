@@ -8,6 +8,9 @@ SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -157,4 +160,4 @@ Languages:
       Value: How to Prepare for the Sitecore Hackathon in Powerful Ways
     - ID: "fe700ca1-c658-4320-84e0-dbf9c39bf735"
       Hint: author
-      Value: Jeff
+      Value: "Jean-François L'Heureux"
