@@ -1,0 +1,74 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Powerful Ways JSS Blog Demo</PackageName>
+      <Author>Jean-François L'Heureux</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>Powerful Ways JSS Blog Demo
+
+Demo site made with Powerful Ways JSS Blog Feature.
+
+Make sure to install the feature packages before installing this one:
+- Powerful Ways JSS Blog Feature-1.0.zip</Readme>
+      <Publisher>Jean-François L'Heureux</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/blog/{178DC8B5-CAFA-4D47-A839-44D6D1B53F6C}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/blog Dictionary/{98242183-022A-4C96-AD61-E7ED355EB381}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/Components/{4FD837CC-7328-4999-90CD-9170862697B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/Components/About/{8F361C16-0BF7-45B4-9EE6-78D0CD44077A}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/Components/Article/{1B781A06-E183-4152-A7A6-393877C0ECA6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/Components/ArticlePreview/{E79AD3A4-7D22-49CE-AA79-708DBFDE400F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/home/{6AE86C1A-8825-4C18-8F3A-079096ACDC99}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/home/about/{0AF9BAD7-AA19-463B-BF21-9CCE31DFA87F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/home/about/Page Components/{074EAD5C-A331-4406-8B20-55F67ADDDCD9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/home/about/Page Components/About/{83604ACD-805D-4137-BEBB-5CFF95541F6D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/home/Articles/{634EA3D6-C5D6-4254-ADC5-D53DB776C136}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/home/Articles/how-to-prepare-for-the-sitecore-hackathon-in-powerful-ways/{03F32101-F0D7-4ADE-86AC-6904686FAD64}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/blog/home/Articles/jean-francois-l-heureux-named-sitecore-mvp-for-a-second-year/{3B4F023E-0A28-435B-82A8-6A765BE61C37}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Content</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/zzz/blog.config</x-item>
+        <x-item>/App_Config/Include/zzz/blog.prod.config</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Config</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

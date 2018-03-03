@@ -1,0 +1,190 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Powerful Ways JSS Blog Feature</PackageName>
+      <Author>Jean-François L'Heureux</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>Powerful Ways JSS Blog Feature
+
+Allows creating a blog using Sitecore JSS.
+
+Make sure to install both JSS packages before installing this one:
+- Sitecore JavaScript Services Tech Preview Server 9.0.1 rev. 180228.zip
+- Sitecore JavaScript Services Tech Preview Infrastructure 9.0.1 rev. 180228.zip
+
+See https://jss.sitecore.net/#/setup/jss-server-install?id=jss-server-install for instructions.</Readme>
+      <Publisher>Jean-François L'Heureux</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/blog/{7A41BA67-3A3D-4C81-9A4F-F9E6739ADBDC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/About/{415F5829-6D8F-485A-801E-FF11832CEC67}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/About/About/{D5399720-908F-4D83-87F2-8E51BF295A9A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/About/About/body/{9BBB8EFF-75FB-4AF6-A199-FEDC621EDE14}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/About/About/subtitle/{9C593746-EE1B-48DB-BFB0-160E83CEBA47}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/About/About/title/{BC8E15C6-1BA3-4740-9882-AAA3BE09426F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article Folder/__Standard Values/{FBB3E4AA-C6CC-4848-A6A1-9E323F15CC92}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article Folder/{23B43768-994D-4F09-9C66-0EF54E00629A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article/__Standard Values/{767DAC39-644B-4F78-B3F4-1E4C61DC403B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article/{1FFE6566-2D56-4113-894B-4212640F19E9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article/Data/{9ABA64C6-8D6F-4218-AD92-1A19FFF12221}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article/Data/author/{FE700CA1-C658-4320-84E0-DBF9C39BF735}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article/Data/body/{77897B17-AECE-493D-BC3C-97C76FEE394B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article/Data/date/{5918A967-6C5C-447C-BCCC-3C19354E98F3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article/Data/intro/{350BE29E-D525-4C42-B3DD-63F9FEDD03B4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article/Data/tags/{3B04CA24-900C-4C54-A12A-E6338F6F3066}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/Article/Data/title/{9C2A9043-AAC9-408C-9A90-A1FF12B3EFBE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/blog Route/__Standard Values/{4B7709EF-56D3-4696-859C-27D26CADAB5D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/blog/blog Route/{5C7B53B0-BE98-449C-BA40-008D12C61F55}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Templates</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/media library/blog/{516937AE-F302-4438-95B1-AFE96BCE6C2D}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/blog/assets/{F507A575-D18B-4F3C-850D-51EA2A7A305A}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/blog/assets/img/{74ADDDF7-EB1E-4C32-B997-C66A12FC80E4}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Media Library</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Renderings/blog/{67EBCAE1-5BCB-402E-AEC8-A06A2D01E37E}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/blog/About/{0519BC9B-7FA8-4BF4-9FA8-B46852404B55}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/blog/Article/{DFA4A05F-01E1-407B-857D-6B0C33ABB95E}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/blog/ArticleList/{3713E811-EB87-4A81-BDE8-D5FA1670C6AE}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Renderings</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Layouts/JavaScriptServices/blog/{892F2DC4-2E6F-473B-9D09-258621398FE2}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Layouts</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Placeholder Settings/blog/{9D4AF42E-FF8E-4EB2-A399-86104E3032CF}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/blog/main/{2BF500A5-7094-4503-8A96-3F5D4D1EB2F9}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Placeholder Settings</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Settings/Services/API Keys/JSS-Blog/{1E823920-9931-4BC2-B599-69E689ACAA46}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Api Key</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/dist/blog/</x-item>
+        <x-item>/dist/blog/448c34a56d699c29117adc64c43affeb.woff2</x-item>
+        <x-item>/dist/blog/674f50d287a8c48dc19ba404d20fe713.eot</x-item>
+        <x-item>/dist/blog/89889688147bd7575d6327160d64e760.svg</x-item>
+        <x-item>/dist/blog/912ec66d7572ff821749319396470bde.svg</x-item>
+        <x-item>/dist/blog/af7ae505a9eed503f8b8e6982036873e.woff2</x-item>
+        <x-item>/dist/blog/b06871f281fee6b241d60582ae9369b9.ttf</x-item>
+        <x-item>/dist/blog/client.bundle.js</x-item>
+        <x-item>/dist/blog/client.bundle.js.map</x-item>
+        <x-item>/dist/blog/client.css</x-item>
+        <x-item>/dist/blog/client.css.map</x-item>
+        <x-item>/dist/blog/e18bbf611f2a2e43afc071aa2f4e1512.ttf</x-item>
+        <x-item>/dist/blog/f4769f9bdb7466be65088239c12046d1.eot</x-item>
+        <x-item>/dist/blog/fa2772327f55d8198301fdb8bcfc8158.woff</x-item>
+        <x-item>/dist/blog/fee66e712a8a08eef5805a46892932ad.woff</x-item>
+        <x-item>/dist/blog/report.html</x-item>
+        <x-item>/dist/blog/server.bundle.js</x-item>
+        <x-item>/dist/blog/server.bundle.js.map</x-item>
+        <x-item>/dist/blog/server.css</x-item>
+        <x-item>/dist/blog/server.css.map</x-item>
+        <x-item>/dist/blog/vendor-client.bundle.js</x-item>
+        <x-item>/dist/blog/vendor-client.bundle.js.map</x-item>
+        <x-item>/dist/blog/vendor-client.css</x-item>
+        <x-item>/dist/blog/vendor-client.css.map</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>JSS Distrtibution</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
