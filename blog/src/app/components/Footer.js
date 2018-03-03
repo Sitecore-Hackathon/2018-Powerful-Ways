@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = ({ fields }) => (
+const Footer = () => (
   <footer>
     <div className="container beautiful-jekyll-footer">
       <div className="row">
@@ -38,21 +38,13 @@ const Footer = ({ fields }) => (
                 </span>
               </a>
             </li>
-            <li>
-              <a href="https://www.jflh.ca/feed.xml" title="RSS">
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-                  <i className="fa fa-rss fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
           </ul>
           <p className="copyright text-muted">
             Jean-François L'Heureux
             &nbsp;•&nbsp;
             2018
             &nbsp;•&nbsp;
-            <a href="https://www.jflh.ca">www.jflh.ca</a>
+            <a href="/">www.jflh.ca</a>
           </p>
         </div>
       </div>

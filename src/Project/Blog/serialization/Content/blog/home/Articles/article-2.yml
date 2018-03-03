@@ -11,36 +11,7 @@ SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
-  Value: |
-    <r xmlns:p="p" xmlns:s="s"
-      p:p="1">
-      <d
-        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-        <r
-          uid="{4F6508A5-38A3-431C-BDBF-0D02D38F9E29}"
-          p:before="*"
-          s:rname="Navigation"
-          s:ds="{774AA427-0C83-48B4-815E-435242E24AF6}"
-          s:id="{711D097B-1C5F-41B6-B4FE-F2C30EEB7C9F}"
-          s:par=""
-          s:ph="/main" />
-        <r
-          uid="{8FA948BD-8EF7-4B18-A4BA-62952E666593}"
-          p:after="r[@uid='{4F6508A5-38A3-431C-BDBF-0D02D38F9E29}']"
-          s:rname="Article"
-          s:ds=""
-          s:id="{DFA4A05F-01E1-407B-857D-6B0C33ABB95E}"
-          s:par=""
-          s:ph="/main" />
-        <r
-          uid="{7372D17E-9CA2-4E55-825E-13485829B1DA}"
-          p:after="*[1=2]"
-          s:rname="Footer"
-          s:id="{45EA85AE-880A-4656-9AF5-DF45AC92D020}"
-          s:par=""
-          s:ph="/main" />
-      </d>
-    </r>
+  Value: 
 Languages:
 - Language: en
   Fields:
