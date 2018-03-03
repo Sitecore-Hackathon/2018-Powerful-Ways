@@ -32,6 +32,7 @@ SharedFields:
           uid="{5C505937-D9B6-4CBE-90FE-6E4B6506003D}"
           p:after="r[@uid='{697B2B51-FE5A-4F8F-B681-9DCFC9C80082}']"
           s:rname="About"
+          s:ds="{83604ACD-805D-4137-BEBB-5CFF95541F6D}"
           s:id="{0519BC9B-7FA8-4BF4-9FA8-B46852404B55}"
           s:par=""
           s:ph="/main" />

@@ -1,0 +1,38 @@
+﻿---
+ID: "83604acd-805d-4137-bebb-5cff95541f6d"
+Parent: "074ead5c-a331-4406-8b20-55f67adddcd9"
+Template: "415f5829-6d8f-485a-801e-ff11832cec67"
+Path: /sitecore/content/blog/home/about/Page Components/About
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T201625Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9bbb8eff-75fb-4af6-a199-fedc621ede14"
+      Hint: body
+      Value: |
+        <p><img src="https://www.jflh.ca/img/jflheureux.png" alt="Sitecore Technology MVP 2018 Logo" class="center-image" /></p>
+        <p style="text-align: justify;">
+          I am Jean-François L'Heureux, a 33 years old software developer. I've spent half of my life programming now, beginning when I was a teenager. I'm passionate about web programming. Mostly front-end but also back-end. Everyday, I try to learn more and become a better coder. Keeping this blog active is the first step to motivate me to read more on my favorite subjects and put what I learn into practice by writing code.
+        </p>
+        <p style="text-align: justify;">
+          I am working a lot with the Sitecore platform. I have been awarded the Sitecore Technology MVP title since 2017.
+        </p>
+        <p>
+          <a href="https://www.sitecore.com/mvp"><img src="https://www.jflh.ca/img/Sitecore_MVP_logo_Technology_2018.jpg" alt="Sitecore Technology MVP 2018 Logo" /></a>
+          <a href="https://www.sitecore.com/mvp"><img src="https://www.jflh.ca/img/Sitecore_MVP_logo_Technology_2017.png" alt="Sitecore Technology MVP 2017 Logo" /></a>
+        </p>
+    - ID: "9c593746-ee1b-48db-bfb0-160e83ceba47"
+      Hint: subtitle
+      Value: Why you'd want to read my blog
+    - ID: "bc8e15c6-1ba3-4740-9882-aaa3be09426f"
+      Hint: title
+      Value: About me
