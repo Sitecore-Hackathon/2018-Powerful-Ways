@@ -1,68 +1,55 @@
-# Documentation
+# Powerful Ways JSS Blog Feature Module and Demo Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
+**Category:** Sitecore JavaScript Services (JSS)
 
 ## Summary
 
-**Category:** Hackathon Category
+The Powerful Ways JSS blog feature module allows a content editor to create a blog in Sitecore Content Editor and Sitecore Experience Editor. It contains all the building blocks required to create such a blog. A blog created using this module is using React and Sitecore JSS to render the pages.
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+Sitecore JSS is a very recent technology and no or just a few modules exist to accelerate development of sites using it. This module aims to accelerate development of a blog feature in Sitecore JSS projects.
+
+For the Sitecore Hackathon 2018 purposes, a demo module is also provided. It uses the building blocks of the feature module to implement a working blog website.
 
 ## Pre-requisites
 
-Does your module rely on other Sitecore modules or frameworks?
+This module has the following dependencies:
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- Sitecore Experience Platform 9.0 Update-1 (rev. 171219) (Not tested on Sitecore Experience Management but it should work).
+- A Sitecore subscription license.
+- Sitecore JavaScript Services 9.0 Tech Preview 2 Server Package (Sitecore JavaScript Services Tech Preview Server 9.0.1 rev. 180228.zip).
 
 ## Installation
 
-Provide detailed instructions on how to install the module, and include screenshots where necessary.
+1. Install a new instance of Sitecore Experience Platform 9.0 Update-1 (rev. 171219) using your preferred method.
+    1. For intructions purposes, let's say the hostname is: `powerfulways.sc`
+1. Download the server package of Sitecore JSS from [dev.sitecore.net](https://dev.sitecore.net/Downloads/Sitecore_JavaScript_Services/90_Tech_Preview/Sitecore_JavaScript_Services_90_Tech_Preview_2.aspx).
+1. Log into Sitecore at http://powerfulways.sc/sitecore.
+1. From the Launch Pad, open the Desktop application.
+1. Use the Sitecore Installation wizard (Start menu > Development Tools > Installation Wizard) to install the [JSS Server package](https://dev.sitecore.net/~/media/C164487ED4374D5D90B1F01E85C2C7AD.ashx).
+1. Make the following changes in Web.config of the Sitecore instance:
+    1. Add the following element to the bottom of the `system.webServer/handlers` section:
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+           <add verb="*" path="sitecorejss_media.ashx" type="Sitecore.JavaScriptServices.Media.MediaRequestHandler, Sitecore.JavaScriptServices.Media" name="Sitecore.JavaScriptServices.Media.MediaRequestHandler" />
 
-## Configuration
+1. Use the Sitecore Installation wizard to install the [Powerful Ways JSS blog feature package](https://github.com/Sitecore-Hackathon/2018-Powerful-Ways/raw/master/sc.package/Powerful%20Ways%20JSS%20Blog%20Feature-1.0.zip).
+1. Use the Sitecore Installation wizard to install the [Powerful Ways JSS blog demo package](https://github.com/Sitecore-Hackathon/2018-Powerful-Ways/raw/master/sc.package/Powerful%20Ways%20JSS%20Blog%20Demo-1.0.zip).
+1. Use the Sitecore Desktop to smart publish the site (Start menu > Publish Site > Smart Publish).
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
-
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
+After the publish, the website should be up and running. Ready to be accessed by visitors and edited by authors.
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
+### Visitors
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+Visitors can now consult the blog at the public address of the Sitecore instance: http://powerfulways.sc/
 
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
+The default website was patched to target the blog home item in the Sitecore content tree.
 
-You can embed images of different formats too:
+### Authors
 
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
+Authors can log into Sitecore at http://powerfulways.sc/sitecore and use both the Content Editor and Experience Editor to add and modify the blog articles content.
 
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
+Watch the video below for detailed instructions.
 
 ## Video
 
