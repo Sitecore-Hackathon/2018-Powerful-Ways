@@ -4,6 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom/server";
 import initialState from "boot/initialState";
 import Root from "boot/Root";
+import { StaticRouter } from 'react-router-dom';
 import SitecoreContentService from "boot/SitecoreContentService";
 import SitecoreContextFactory from "boot/SitecoreContextFactory";
 import ServerHtml from "app/ServerHtml";
@@ -24,9 +25,13 @@ export function renderView(callback, path, data, viewBag) {
     SitecoreContentService.getRouteData(path)
       // render the app to a string using Apollo Client's SSR helper (waits for all GraphQL queries to complete)
       .then(routeData => {
-        SitecoreContextFactory.setSitecoreContext(routeData.sitecore.context);
+        SitecoreContextFactory.setSitecoreContext({
+          route: routeData.sitecore.route,
+          itemId: routeData.sitecore.route.itemId,
+          ...routeData.sitecore.context
+        });
 
-        return <Root initialState={routeData} path={path} />;
+        return <Root initialState={routeData} path={path} Router={StaticRouter} />;
       })
       .then(content => {
         // wrap the app content in a HTML shell (ServerHtml), and return it to the server

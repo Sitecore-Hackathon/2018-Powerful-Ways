@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import initialState from "boot/initialState";
 import Root from "boot/Root";
+import { BrowserRouter } from "react-router-dom";
 import SitecoreContentService from "boot/SitecoreContentService";
 import SitecoreContextFactory from "boot/SitecoreContextFactory";
 
@@ -18,7 +19,7 @@ const render = (state, renderFunc) => {
   const rootElement = document.getElementById("app");
 
   // render the app
-  renderFunc(<Root initialState={state} />, rootElement);
+  renderFunc(<Root initialState={state} Router={BrowserRouter} />, rootElement);
 };
 
 /*
@@ -39,7 +40,11 @@ if (window.__data) {
 SitecoreContentService.getRouteData(window.location.pathname).then(
   routeData => {
     if (routeData && routeData.sitecore && routeData.sitecore.context) {
-      SitecoreContextFactory.setSitecoreContext(routeData.sitecore.context);
+      SitecoreContextFactory.setSitecoreContext({
+        route: routeData.sitecore.route,
+        itemId: routeData.sitecore.route.itemId,
+        ...routeData.sitecore.context
+      });
     }
 
     return render(

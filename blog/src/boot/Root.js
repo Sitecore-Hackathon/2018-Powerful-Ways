@@ -1,21 +1,40 @@
 // import the babel polyfill here instead of via webpack entry point.
 // otherwise, babel-preset-env will essentially try to load babel-polyfill a second time, which is a big no-no.
 import "babel-polyfill";
-import React, { Component } from "react";
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 import PropTypes from "prop-types";
 import { SitecoreContext } from "@sitecore-jss/sitecore-jss-react";
 import componentFactory from "../app/componentFactory";
-import App from "../app";
+import SitecoreContextFactory from "./SitecoreContextFactory";
+import RouteHandler from "./RouteHandler";
+import NotFound from "../app/NotFound";
 
-class Root extends Component {
-  render() {
-    return (
-      <SitecoreContext componentFactory={componentFactory}>
-        <App route={this.props.initialState.sitecore.route} />
-      </SitecoreContext>
-    );
-  }
-}
+const Root = ({ initialState, path, Router }) => (
+  <SitecoreContext
+    componentFactory={componentFactory}
+    contextFactory={SitecoreContextFactory}
+  >
+    <Router location={path} context={{}}>
+      <Switch>
+        <Route
+          exact
+          path="/"
+          render={props => (
+            <RouteHandler initialState={initialState} route={props} />
+          )}
+        />
+        <Route
+          path="/**"
+          render={props => (
+            <RouteHandler initialState={initialState} route={props} />
+          )}
+        />
+        <Route component={NotFound} />
+      </Switch>
+    </Router>
+  </SitecoreContext>
+);
 
 Root.propTypes = {
   initialState: PropTypes.object,
