@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import 'assets/css/main.css';
 
-const App = ({ route }) => <Placeholder name="main" rendering={route} />;
+const App = ({ route }) => <Placeholder name="main" rendering={route} routeFields={route.fields} />;
 
 App.propTypes = {
   route: PropTypes.object

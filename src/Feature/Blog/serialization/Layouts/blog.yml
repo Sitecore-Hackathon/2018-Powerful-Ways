@@ -1,0 +1,27 @@
+﻿---
+ID: "892f2dc4-2e6f-473b-9d09-258621398fe2"
+Parent: "fb24e9a4-5e47-4128-b771-651f3f2aeb04"
+Template: "35c61e90-47dd-43dd-83a8-d1c4d5119720"
+Path: /sitecore/layout/Layouts/JavaScriptServices/blog
+DB: master
+SharedFields:
+- ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
+  Hint: Placeholders
+  Type: Treelist
+  Value: "{2BF500A5-7094-4503-8A96-3F5D4D1EB2F9}"
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T011103Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport

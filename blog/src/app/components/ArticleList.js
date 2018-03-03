@@ -6,7 +6,7 @@ import ArticlePreview from "./ArticlePreview";
 class ArticleList extends React.Component {
   render() {
     const articles = this.props.fields.items.map(function(article) {
-      return <ArticlePreview key={article.id} fields={article.fields} />
+      return <ArticlePreview key={article.id} article={article} />
     });
 
     return (

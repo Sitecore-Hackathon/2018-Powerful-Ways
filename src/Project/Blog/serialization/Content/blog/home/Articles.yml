@@ -1,8 +1,8 @@
 ﻿---
 ID: "634ea3d6-c5d6-4254-adc5-d53db776c136"
-Parent: "178dc8b5-cafa-4d47-a839-44d6d1b53f6c"
+Parent: "6ae86c1a-8825-4c18-8f3a-079096acdc99"
 Template: "23b43768-994d-4f09-9c66-0ef54e00629a"
-Path: /sitecore/content/blog/Articles
+Path: /sitecore/content/blog/home/Articles
 DB: master
 Languages:
 - Language: en

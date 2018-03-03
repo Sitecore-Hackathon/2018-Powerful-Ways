@@ -1,29 +1,62 @@
 ﻿---
-ID: "47276478-1666-4609-96bf-8c22ee0b0b4b"
-Parent: "97554e64-dacf-47dc-8c6b-3318a4cce6fb"
+ID: "03f32101-f0d7-4ade-86ac-6904686fad64"
+Parent: "634ea3d6-c5d6-4254-adc5-d53db776c136"
 Template: "1ffe6566-2d56-4113-894b-4212640f19e9"
-Path: "/sitecore/content/blog/home/article/Page Components/article-main-Article-2"
+Path: "/sitecore/content/blog/home/Articles/how-to-prepare-for-the-sitecore-hackathon-in-powerful-ways"
 DB: master
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4F6508A5-38A3-431C-BDBF-0D02D38F9E29}"
+          p:before="*"
+          s:rname="Navigation"
+          s:ds="{774AA427-0C83-48B4-815E-435242E24AF6}"
+          s:id="{711D097B-1C5F-41B6-B4FE-F2C30EEB7C9F}"
+          s:par=""
+          s:ph="/main" />
+        <r
+          uid="{8FA948BD-8EF7-4B18-A4BA-62952E666593}"
+          p:after="r[@uid='{4F6508A5-38A3-431C-BDBF-0D02D38F9E29}']"
+          s:rname="Article"
+          s:ds=""
+          s:id="{DFA4A05F-01E1-407B-857D-6B0C33ABB95E}"
+          s:par=""
+          s:ph="/main" />
+        <r
+          uid="{7372D17E-9CA2-4E55-825E-13485829B1DA}"
+          p:after="*[1=2]"
+          s:rname="Footer"
+          s:id="{45EA85AE-880A-4656-9AF5-DF45AC92D020}"
+          s:par=""
+          s:ph="/main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Article-2"
+    Value: How to Prepare for the Sitecore Hackathon in Powerful Ways
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180303T071316Z
+      Value: 20180303T165112Z
     - ID: "350be29e-d525-4c42-b3dd-63f9fedd03b4"
       Hint: intro
       Value: |
-        <p><img src="http://www.sitecorehackathon.org/wp-content/uploads/2017/01/Sitecore-Hackathon-logo-small-own-it.png" alt="Sitecore Hackathon" class="center-image"></p>
+        <p><img src="http://www.sitecorehackathon.org/wp-content/uploads/2017/01/Sitecore-Hackathon-logo-small-own-it.png" alt="Sitecore Hackathon" class="center-image" /></p>
         <p>Preparation is key for a 24 hours hackathon event. You do not want to lose time on setup or tooling. You want to use those precious hours to code and be creative.</p>
         <p>In this post, I cover how I prepared for the 2018 Sitecore hackathon.</p>
     - ID: "3b04ca24-900c-4c54-a12a-e6338f6f3066"
@@ -31,17 +64,20 @@ Languages:
       Value: Sitecore|Hackathon
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+      Value: "{AF32C98B-C828-42AF-A649-74C1DE3303FB}"
     - ID: "5918a967-6c5c-447c-bccc-3c19354e98f3"
       Hint: date
       Value: February 28, 2018
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
     - ID: "77897b17-aece-493d-bc3c-97c76fee394b"
       Hint: body
       Value: |
         <h2 id="beer">Beer</h2>
         <p>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Brewdog-hardcore-ipa.jpg" alt="Beer" style="width:400px;"
-            class="center-image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Brewdog-hardcore-ipa.jpg" alt="Beer" style="width:400px;" class="center-image" />
         </p>
         <p>You need to have fun! This is the most important aspect of a hackathon. If it were not fun, nobody would participate. The
           topics are made public at 7pm EST. It is the perfect time to crack open a few beers while starting the project in powerful
@@ -54,8 +90,7 @@ Languages:
         <div style="height:60px;"></div>
         <h2 id="coffee">Coffee</h2>
         <p>
-          <img src="https://images.pexels.com/photos/591651/coffee-bean-drink-grind-591651.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb"
-            alt="Coffee" style="width:400px;" class="center-image">
+          <img src="https://images.pexels.com/photos/591651/coffee-bean-drink-grind-591651.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb" alt="Coffee" style="width:400px;" class="center-image" />
         </p>
         <p>As the Hackathon starts at 7pm for me, it means I cannot get sleep between my work day and the event. After a full work
           day and a long night of coding, I will need something strong to stay awake.</p>
@@ -67,7 +102,7 @@ Languages:
         <div style="height:60px;"></div>
         <h2 id="food">Food</h2>
         <p>
-          <img src="https://c1.staticflickr.com/6/5099/5529530102_e58e6a2ae2_b.jpg" alt="Lunches" style="width:400px;" class="center-image">
+          <img src="https://c1.staticflickr.com/6/5099/5529530102_e58e6a2ae2_b.jpg" alt="Lunches" style="width:400px;" class="center-image" />
         </p>
         <p>Your brain need food to think sharp and code wisely. Prefer homemade meals over fast food.</p>
         <h4 id="checklist-2">Checklist:</h4>
@@ -87,8 +122,7 @@ Languages:
         <div style="height:60px;"></div>
         <h2 id="github-repository">GitHub Repository</h2>
         <p>
-          <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="GitHub" style="width:400px;"
-            class="center-image">
+          <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="GitHub" style="width:400px;" class="center-image" />
         </p>
         <p>This year, the organization team is providing each team a GitHub repository with boilerplate folders, documentation, Visual
           Studio solution, and instructions about where to place everything. This is really helpful.</p>
@@ -152,4 +186,4 @@ Languages:
       Value: How to Prepare for the Sitecore Hackathon in Powerful Ways
     - ID: "fe700ca1-c658-4320-84e0-dbf9c39bf735"
       Hint: author
-      Value: "Jean-François L'Heureux"
+      Value: Jeff

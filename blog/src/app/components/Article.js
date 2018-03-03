@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Text, RichText } from "@sitecore-jss/sitecore-jss-react";
 
-const Article = ({ fields }) => (
+const Article = ({ routeFields }) => (
   <div>
     <header className="header-section">
       <div className="intro-header no-img">
@@ -10,10 +10,10 @@ const Article = ({ fields }) => (
           <div className="row">
             <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <div className="post-heading">
-                <Text tag="h1" field={fields.title} />
-                <span className="post-meta">Posted on <Text tag="span" field={fields.date} /> by <Text tag="span" field={fields.author} /></span>
+                <Text tag="h1" field={routeFields.title} />
+                <span className="post-meta">Posted on <Text tag="span" field={routeFields.date} /> by <Text tag="span" field={routeFields.author} /></span>
                 <p className="post-meta">
-                  Tags: <Text tag="span" field={fields.tags} />
+                  Tags: <Text tag="span" field={routeFields.tags} />
                 </p>
               </div>
             </div>
@@ -25,8 +25,8 @@ const Article = ({ fields }) => (
       <div className="row">
         <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           <article role="main" className="blog-post">
-            <RichText field={fields.intro} />
-            <RichText field={fields.body} />
+            <RichText field={routeFields.intro} />
+            <RichText field={routeFields.body} />
           </article>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Article = ({ fields }) => (
 );
 
 Article.propTypes = {
-  fields: PropTypes.shape({
+  routeFields: PropTypes.shape({
     title: PropTypes.shape({
       value: PropTypes.string,
       editable: PropTypes.string
