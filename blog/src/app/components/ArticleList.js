@@ -29,10 +29,7 @@ class ArticleList extends React.Component {
 
 ArticleList.propTypes = {
   fields: PropTypes.shape({
-    items: PropTypes.shape({
-      value: PropTypes.array,
-      editable: PropTypes.array
-    })
+    items: PropTypes.array
   })
 };
 
