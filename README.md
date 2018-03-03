@@ -12,8 +12,7 @@ For the Sitecore Hackathon 2018 purposes, a demo module is also provided. It use
 
 Continue to the [documentation](documentation) for prerequisites, installation and usage instructions or watch the video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tamNwsiTMWg?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-
+[![Powerful Ways JSS Blog Feature Module and Demo Video](https://img.youtube.com/vi/tamNwsiTMWg/0.jpg)](https://www.youtube.com/watch?v=tamNwsiTMWg)
 
 ## Entry Submission Requirements 
 
