@@ -32,6 +32,7 @@ SharedFields:
           uid="{1A170942-9B68-4B3B-B1DC-073A36DF23D6}"
           p:after="r[@uid='{8E180BAD-1D66-405A-A769-E8457856149D}']"
           s:rname="ArticleList"
+          s:ds="{634EA3D6-C5D6-4254-ADC5-D53DB776C136}"
           s:id="{3713E811-EB87-4A81-BDE8-D5FA1670C6AE}"
           s:par=""
           s:ph="/main" />

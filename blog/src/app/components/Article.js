@@ -13,8 +13,7 @@ const Article = ({ fields }) => (
                 <Text tag="h1" field={fields.title} />
                 <span className="post-meta">Posted on <Text tag="span" field={fields.date} /> by <Text tag="span" field={fields.author} /></span>
                 <p className="post-meta">
-                  Tags:
-                  <Text tag="span" field={fields.tags} />
+                  Tags: <Text tag="span" field={fields.tags} />
                 </p>
               </div>
             </div>
