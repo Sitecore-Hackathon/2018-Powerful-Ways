@@ -1,5 +1,6 @@
 import React from "react";
 
+// Static navigation header. Could be eventually driven by Sitecore items.
 const Navigation = () => (
   <nav className="navbar navbar-default navbar-fixed-top navbar-custom">
     <div className="container-fluid">

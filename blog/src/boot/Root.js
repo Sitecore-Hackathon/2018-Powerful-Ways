@@ -10,6 +10,7 @@ import SitecoreContextFactory from "./SitecoreContextFactory";
 import RouteHandler from "./RouteHandler";
 import NotFound from "../app/NotFound";
 
+// Powerful Ways: Added the Router from https://github.com/Sitecore/jss/blob/master/samples/basic-sample-react-graphql/src/boot/Root.js
 const Root = ({ initialState, path, Router }) => (
   <SitecoreContext
     componentFactory={componentFactory}

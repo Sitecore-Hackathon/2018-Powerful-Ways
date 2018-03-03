@@ -2,8 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Text, RichText } from "@sitecore-jss/sitecore-jss-react";
 
+// This component does not use the rendering data source. It instead uses the context item (route item) to get its fields. Hence the routeFields prop.
 class Article extends React.Component {
   render() {
+    // Tags are stored as a pipe separated single line text in Sitecore. Make them cute to display.
     const tags = this.props.routeFields.tags.value.split('|').join(', ');
 
     return (

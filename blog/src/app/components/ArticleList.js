@@ -5,6 +5,7 @@ import ArticlePreview from "./ArticlePreview";
 
 class ArticleList extends React.Component {
   render() {
+    // Render all the articles previews
     const articles = this.props.fields.items.map(function(article) {
       return <ArticlePreview key={article.id} article={article} />
     });

@@ -7,6 +7,7 @@ import ReactDOM from "react-dom/server";
 const ServerHtml = ({ component, initialState, distPath }) => {
   const content = component ? ReactDOM.renderToString(component) : "";
 
+  // Powerful Ways: Added fonts and vendor-client.css to reference bootstrap style sheet
   return (
     <html>
       <head>

@@ -25,12 +25,14 @@ export function renderView(callback, path, data, viewBag) {
     SitecoreContentService.getRouteData(path)
       // render the app to a string using Apollo Client's SSR helper (waits for all GraphQL queries to complete)
       .then(routeData => {
+        // Powerful Ways: Code added to enable React Router to access any Sitecore item
         SitecoreContextFactory.setSitecoreContext({
           route: routeData.sitecore.route,
           itemId: routeData.sitecore.route.itemId,
           ...routeData.sitecore.context
         });
 
+        // Powerful Ways: Added Router attribute
         return <Root initialState={routeData} path={path} Router={StaticRouter} />;
       })
       .then(content => {

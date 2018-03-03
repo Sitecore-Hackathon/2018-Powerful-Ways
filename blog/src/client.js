@@ -19,6 +19,7 @@ const render = (state, renderFunc) => {
   const rootElement = document.getElementById("app");
 
   // render the app
+  // Powerful Ways: Added Router attribute
   renderFunc(<Root initialState={state} Router={BrowserRouter} />, rootElement);
 };
 
@@ -40,6 +41,7 @@ if (window.__data) {
 SitecoreContentService.getRouteData(window.location.pathname).then(
   routeData => {
     if (routeData && routeData.sitecore && routeData.sitecore.context) {
+      // Powerful Ways: Code added to enable React Router to access any Sitecore item
       SitecoreContextFactory.setSitecoreContext({
         route: routeData.sitecore.route,
         itemId: routeData.sitecore.route.itemId,

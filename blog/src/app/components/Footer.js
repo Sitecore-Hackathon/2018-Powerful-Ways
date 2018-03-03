@@ -1,5 +1,6 @@
 import React from "react";
 
+// Static footer. Could be eventually driven by Sitecore items.
 const Footer = () => (
   <footer>
     <div className="container beautiful-jekyll-footer">

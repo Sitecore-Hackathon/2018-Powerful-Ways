@@ -2,9 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Text, RichText } from "@sitecore-jss/sitecore-jss-react";
 
+// This component is used in a loop in ArticleList. It receives an article prop.
 class ArticlePreview extends React.Component {
   render() {
     const articleUrl = "/articles/" + this.props.article.name;
+    // Tags are stored as a pipe separated single line text in Sitecore. Make them cute to display.
     const tags = this.props.article.fields.tags.value.split('|').join(', ');
 
     return (
