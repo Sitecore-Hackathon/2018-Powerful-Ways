@@ -1,6 +1,6 @@
 {
-  "name": "home",
-  "displayName": "Home",
+  "name": "about",
+  "displayName": "About",
   "placeholders": {
     "main": [
       {
@@ -15,7 +15,7 @@
         }
       },
       {
-        "componentName": "ArticleList"
+        "componentName": "About"
       },
       {
         "componentName": "Footer"

@@ -1,0 +1,45 @@
+{
+  "name": "article",
+  "displayName": "Article",
+  "placeholders": {
+    "main": [
+      {
+        "componentName": "Navigation",
+        "fields": {
+          "title": {
+            "value": "Keep Calm and Write Code"
+          },
+          "items": {
+            "value": "About me"
+          }
+        }
+      },
+      {
+        "componentName": "Article",
+        "fields": {
+          "title": {
+            "value": "How to Prepare for the Sitecore Hackathon in Powerful Ways"
+          },
+          "date": {
+            "value": "February 28, 2018"
+          },
+          "author": {
+            "value": "Jean-François L'Heureux"
+          },
+          "tags": {
+            "value": "Sitecore|Hackathon"
+          },
+          "intro": {
+            "value": "<p><img src=\"http://www.sitecorehackathon.org/wp-content/uploads/2017/01/Sitecore-Hackathon-logo-small-own-it.png\" alt=\"Sitecore Hackathon\" class=\"center-image\"></p>\n<p>Preparation is key for a 24 hours hackathon event. You do not want to lose time on setup or tooling. You want to use those precious hours to code and be creative.</p>\n<p>In this post, I cover how I prepared for the 2018 Sitecore hackathon.</p>"
+          },
+          "body": {
+            "value": "<h2 id=\"beer\">Beer</h2>\n<p>\n  <img src=\"https://upload.wikimedia.org/wikipedia/commons/8/87/Brewdog-hardcore-ipa.jpg\" alt=\"Beer\" style=\"width:400px;\"\n    class=\"center-image\">\n</p>\n<p>You need to have fun! This is the most important aspect of a hackathon. If it were not fun, nobody would participate. The\n  topics are made public at 7pm EST. It is the perfect time to crack open a few beers while starting the project in powerful\n  ways.</p>\n<h4 id=\"checklist\">Checklist:</h4>\n<ul>\n  <li>You have enough for you and your teammates.</li>\n  <li>It is in the fridge at least 12 hours before it starts.</li>\n</ul>\n<div style=\"height:60px;\"></div>\n<h2 id=\"coffee\">Coffee</h2>\n<p>\n  <img src=\"https://images.pexels.com/photos/591651/coffee-bean-drink-grind-591651.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb\"\n    alt=\"Coffee\" style=\"width:400px;\" class=\"center-image\">\n</p>\n<p>As the Hackathon starts at 7pm for me, it means I cannot get sleep between my work day and the event. After a full work\n  day and a long night of coding, I will need something strong to stay awake.</p>\n<h4 id=\"checklist-1\">Checklist:</h4>\n<ul>\n  <li>Refill the coffee stocks.</li>\n  <li>Make sure you have enough filters as well.</li>\n</ul>\n<div style=\"height:60px;\"></div>\n<h2 id=\"food\">Food</h2>\n<p>\n  <img src=\"https://c1.staticflickr.com/6/5099/5529530102_e58e6a2ae2_b.jpg\" alt=\"Lunches\" style=\"width:400px;\" class=\"center-image\">\n</p>\n<p>Your brain need food to think sharp and code wisely. Prefer homemade meals over fast food.</p>\n<h4 id=\"checklist-2\">Checklist:</h4>\n<ul>\n  <li>Do not waste time cooking during the hackathon.</li>\n  <li>Make an additional serving at dinner time the days before the hackathon.</li>\n  <li>Microwave when you are hungry.</li>\n</ul>\n<div style=\"height:60px;\"></div>\n<h2 id=\"tools\">Tools</h2>\n<p>Nothing is more frustrating than having problems with your tools while you are in a rush.</p>\n<h4 id=\"checklist-3\">Checklist:</h4>\n<ul>\n  <li>Update your tools to the latest version. This includes Visual Studio, its extensions, Visual Studio Code.</li>\n  <li>Make sure NuGet, nodejs, and npm are working fine.</li>\n</ul>\n<div style=\"height:60px;\"></div>\n<h2 id=\"github-repository\">GitHub Repository</h2>\n<p>\n  <img src=\"https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png\" alt=\"GitHub\" style=\"width:400px;\"\n    class=\"center-image\">\n</p>\n<p>This year, the organization team is providing each team a GitHub repository with boilerplate folders, documentation, Visual\n  Studio solution, and instructions about where to place everything. This is really helpful.</p>\n<h4 id=\"checklist-4\">Checklist:</h4>\n<ul>\n  <li>Clone the repository on your local machine.</li>\n  <li>Read all the markdown files.</li>\n  <li>Take the lead by creating your Visual Studio projects in advance. Even add Unicorn from NuGet and prepare your configuration\n    files if you plan to use it.</li>\n</ul>\n<div style=\"height:60px;\"></div>\n<h2 id=\"sitecore-instances\">Sitecore Instances</h2>\n<p>This year’s Sitecore version requirement is the bleeding edge 9.0 Update-1 release. It requires a Solr server for xConnect\n  to work. With the help of\n  <a href=\"https://bitbucket.org/RAhnemann/sif-less\">SIF-less</a>, I installed 3 instances named hackathondev, hackathonstaging, and hackathonprod. I will work in the dev\n  instance, use the staging one to test my Sitecore package, and use the prod one to record my video which will include\n  a clean package installation.</p>\n<h4 id=\"checklist-5\">Checklist:</h4>\n<ul>\n  <li>Ensure you have a Solr instance running. Install it with\n    <a href=\"https://jermdavis.wordpress.com/2017/10/30/low-effort-solr-installs/\">Jeremy Davis’ script</a> if needed.</li>\n  <li>Install a few Sitecore instances using your preferred method.</li>\n</ul>\n<div style=\"height:60px;\"></div>\n<h2 id=\"sitecore-rocks\">Sitecore Rocks</h2>\n<p>\n  <a href=\"https://marketplace.visualstudio.com/items?itemName=JakobChristensen.SitecoreRocks\">Sitecore Rocks</a> is a fast way to work in Sitecore from Visual Studio. It is an extension. If you are new to it, I\n  highly recommend watching\n  <a href=\"https://www.youtube.com/watch?v=hPEKGesrerg\">Dheer Rajpoot’s presentation at SUGNCR</a>.</p>\n<p>Sitecore Rocks cannot connect to a Sitecore 9 instance by default. You have to modify the Sitecore web.config to allow\n  the connection. Follow\n  <a href=\"http://www.rockpapersitecore.com/2017/10/sitecore-rocks-with-sitecore-9/\">Rob Ahnemann’s solution</a> to make it work.</p>\n<h4 id=\"checklist-6\">Checklist:</h4>\n<ul>\n  <li>Ensure Sitecore Rocks is installed.</li>\n  <li>Modify the web.config of your Sitecore instances.</li>\n  <li>Add the connections to your Sitecore instances in Sitecore Rocks.</li>\n</ul>\n<div style=\"height:60px;\"></div>\n<h2 id=\"sitecore-rocks-vs-code\">Sitecore Rocks VS Code</h2>\n<p>\n  <a href=\"https://marketplace.visualstudio.com/items?itemName=refactor11.sitecore-rocks-vscode\">Sitecore Rocks VS Code</a> is the little brother of the original Sitecore Rocks extension. It is only for VS Code and\n  was released during Sitecore Symposium 2017. It comes handy when developing with Sitecore JSS. It requires a Sitecore\n  package to be installed in your instances. If you hope JSS will be an entry category for this year’s hackathon like me,\n  I recommend you to install it.</p>\n<h4 id=\"checklist-7\">Checklist:</h4>\n<ul>\n  <li>Install VS Code if not already done. What are you waiting for to use the best code editor out there!</li>\n  <li>Install the Sitecore Rocks VS Code extension.</li>\n  <li>Install the\n    <a href=\"https://ci.appveyor.com/project/JakobChristensen/sitecore-contentdelivery/build/artifacts\">Sitecore.ContentDelivery.zip</a> package in your Sitecore instances.</li>\n  <li>Add the connections to your Sitecore instances.</li>\n</ul>\n<div style=\"height:60px;\"></div>\n<h2 id=\"sleep\">Sleep</h2>\n<p>A good preparation must have a lot of sleep in the days before a hackathon. Now that everything is ready, get as many hours\n  of sleep as possible.</p>\n<p>Enjoy your Sitecore hackathon!</p>"
+          }
+        }
+      },
+      {
+        "componentName": "Footer"
+      }
+    ]
+  }
+}

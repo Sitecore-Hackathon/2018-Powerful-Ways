@@ -21,7 +21,7 @@ const Navigation = ({ fields }) => (
       <div className="collapse navbar-collapse" id="main-navbar">
         <ul className="nav navbar-nav navbar-right">
           <li>
-            <a href="">
+            <a href="/about">
               <Text tag="span" field={fields.items} />
             </a>
           </li>
