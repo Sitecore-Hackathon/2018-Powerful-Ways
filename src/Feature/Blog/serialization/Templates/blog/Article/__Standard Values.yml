@@ -1,0 +1,22 @@
+﻿---
+ID: "767dac39-644b-4f78-b3f4-1e4c61dc403b"
+Parent: "1ffe6566-2d56-4113-894b-4212640f19e9"
+Template: "1ffe6566-2d56-4113-894b-4212640f19e9"
+Path: /sitecore/templates/blog/Article/__Standard Values
+DB: master
+SharedFields:
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T032616Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport

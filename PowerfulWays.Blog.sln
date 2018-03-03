@@ -1,8 +1,19 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{0464C9CC-1963-4872-A7E7-30C7F3C26F47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerfulWays.Foundation.Serialization", "src\Foundation\Serialization\code\PowerfulWays.Foundation.Serialization.csproj", "{A1489B9D-A736-42CC-A8C8-33520BCFB6FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{35C81DAA-3437-4697-82A2-9BA019BD03C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerfulWays.Feature.Blog", "src\Feature\Blog\code\PowerfulWays.Feature.Blog.csproj", "{A67222E5-B227-441A-9535-DCD461BD9139}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{8F5ADDC5-C654-403F-A17E-EB55C322AFDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerfulWays.Project.Blog", "src\Project\Blog\code\PowerfulWays.Project.Blog.csproj", "{0ECF2374-DE53-4288-88D0-206A6FA330E1}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}"
@@ -30,10 +41,34 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 	EndProjectSection
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1489B9D-A736-42CC-A8C8-33520BCFB6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1489B9D-A736-42CC-A8C8-33520BCFB6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1489B9D-A736-42CC-A8C8-33520BCFB6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1489B9D-A736-42CC-A8C8-33520BCFB6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67222E5-B227-441A-9535-DCD461BD9139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67222E5-B227-441A-9535-DCD461BD9139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67222E5-B227-441A-9535-DCD461BD9139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67222E5-B227-441A-9535-DCD461BD9139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECF2374-DE53-4288-88D0-206A6FA330E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECF2374-DE53-4288-88D0-206A6FA330E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECF2374-DE53-4288-88D0-206A6FA330E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECF2374-DE53-4288-88D0-206A6FA330E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{0464C9CC-1963-4872-A7E7-30C7F3C26F47} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{A1489B9D-A736-42CC-A8C8-33520BCFB6FE} = {0464C9CC-1963-4872-A7E7-30C7F3C26F47}
+		{35C81DAA-3437-4697-82A2-9BA019BD03C7} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{A67222E5-B227-441A-9535-DCD461BD9139} = {35C81DAA-3437-4697-82A2-9BA019BD03C7}
+		{8F5ADDC5-C654-403F-A17E-EB55C322AFDA} = {15D97D61-D597-42EC-B7E9-E9EC8130E630}
+		{0ECF2374-DE53-4288-88D0-206A6FA330E1} = {8F5ADDC5-C654-403F-A17E-EB55C322AFDA}
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

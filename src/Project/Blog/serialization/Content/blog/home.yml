@@ -1,0 +1,65 @@
+﻿---
+ID: "6ae86c1a-8825-4c18-8f3a-079096acdc99"
+Parent: "178dc8b5-cafa-4d47-a839-44d6d1b53f6c"
+Template: "5c7b53b0-be98-449c-ba40-008d12c61f55"
+Path: /sitecore/content/blog/home
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{5C7B53B0-BE98-449C-BA40-008D12C61F55}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8E180BAD-1D66-405A-A769-E8457856149D}"
+          p:before="*"
+          s:rname="Navigation"
+          s:ds="{774AA427-0C83-48B4-815E-435242E24AF6}"
+          s:id="{711D097B-1C5F-41B6-B4FE-F2C30EEB7C9F}"
+          s:par=""
+          s:ph="/main" />
+        <r
+          uid="{1A170942-9B68-4B3B-B1DC-073A36DF23D6}"
+          p:after="r[@uid='{8E180BAD-1D66-405A-A769-E8457856149D}']"
+          s:rname="ArticleList"
+          s:id="{3713E811-EB87-4A81-BDE8-D5FA1670C6AE}"
+          s:par=""
+          s:ph="/main" />
+        <r
+          uid="{65EACB89-76BF-4E8F-808C-448D72337425}"
+          p:after="*[1=2]"
+          s:rname="Footer"
+          s:id="{45EA85AE-880A-4656-9AF5-DF45AC92D020}"
+          s:par=""
+          s:ph="/main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Home
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T011103Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
