@@ -11,6 +11,7 @@ const ServerHtml = ({ component, initialState, distPath }) => {
     <html>
       <head>
         <link rel="stylesheet" href={`${distPath}client.css`} />
+        <link rel="stylesheet" href={`${distPath}vendor-client.css`} />
       </head>
       <body>
         <div id="app" dangerouslySetInnerHTML={{ __html: content }} />

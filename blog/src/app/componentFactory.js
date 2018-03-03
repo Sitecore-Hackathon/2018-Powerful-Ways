@@ -1,8 +1,8 @@
-import Welcome from "./components/Welcome";
+import Navigation from "./components/Navigation";
 import Article from "./components/Article";
 
 const components = new Map();
-components.set("Welcome", Welcome);
+components.set("Navigation", Navigation);
 components.set("Article", Article);
 
 const componentFactory = componentName => {

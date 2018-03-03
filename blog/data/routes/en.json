@@ -4,6 +4,17 @@
   "placeholders": {
     "main": [
       {
+        "componentName": "Navigation",
+        "fields": {
+          "title": {
+            "value": "Keep Calm and Write Code"
+          },
+          "items": {
+            "value": "About me"
+          }
+        }
+      },
+      {
         "componentName": "Article",
         "fields": {
           "title": {
