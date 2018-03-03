@@ -31,8 +31,8 @@ This module has the following dependencies:
 
            <add verb="*" path="sitecorejss_media.ashx" type="Sitecore.JavaScriptServices.Media.MediaRequestHandler, Sitecore.JavaScriptServices.Media" name="Sitecore.JavaScriptServices.Media.MediaRequestHandler" />
 
-1. Use the Sitecore Installation wizard to install the [Powerful Ways JSS blog feature package](https://github.com/Sitecore-Hackathon/2018-Powerful-Ways/raw/master/sc.package/Powerful%20Ways%20JSS%20Blog%20Feature-1.0.zip).
-1. Use the Sitecore Installation wizard to install the [Powerful Ways JSS blog demo package](https://github.com/Sitecore-Hackathon/2018-Powerful-Ways/raw/master/sc.package/Powerful%20Ways%20JSS%20Blog%20Demo-1.0.zip).
+1. Use the Sitecore Installation wizard to install the [Powerful Ways JSS blog feature package](../sc.package/Powerful%20Ways%20JSS%20Blog%20Feature-1.0.zip).
+1. Use the Sitecore Installation wizard to install the [Powerful Ways JSS blog demo package](../sc.package/Powerful%20Ways%20JSS%20Blog%20Demo-1.0.zip).
 1. Use the Sitecore Desktop to smart publish the site (Start menu > Publish Site > Smart Publish).
 
 After the publish, the website should be up and running. Ready to be accessed by visitors and edited by authors.
@@ -53,6 +53,4 @@ Watch the video below for detailed instructions.
 
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tamNwsiTMWg?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>

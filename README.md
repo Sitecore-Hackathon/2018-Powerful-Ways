@@ -1,12 +1,18 @@
 ![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
 
+**Category:** Sitecore JavaScript Services (JSS)
+
 # Powerful Ways JSS Blog Feature Module and Demo
 
-This module is built with Sitecore JavaScript Services (JSS).
+The Powerful Ways JSS blog feature module allows a content editor to create a blog in Sitecore Content Editor and Sitecore Experience Editor. It contains all the building blocks required to create such a blog. A blog created using this module is using React and Sitecore JSS to render the pages.
 
-The feature module contains the JSS Api Key, all the templates, renderings, layouts, placeholder settings, media library items, and JSS project distribution files.
+Sitecore JSS is a very recent technology and no or just a few modules exist to accelerate development of sites using it. This module aims to accelerate development of a blog feature in Sitecore JSS projects.
 
-The demo contains the Sitecore content items and the configuration files of a working blog.
+For the Sitecore Hackathon 2018 purposes, a demo module is also provided. It uses the building blocks of the feature module to implement a working blog website.
+
+Continue to the [documentation](documentation) for prerequisites, installation and usage instructions or watch the video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tamNwsiTMWg?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
 
 ## Entry Submission Requirements 
