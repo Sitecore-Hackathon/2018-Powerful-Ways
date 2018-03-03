@@ -4,6 +4,7 @@ import { Placeholder } from "@sitecore-jss/sitecore-jss-react";
 import componentFactory from "./componentFactory";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import 'assets/css/main.css';
 
 const App = ({ route }) => <Placeholder name="main" rendering={route} />;
