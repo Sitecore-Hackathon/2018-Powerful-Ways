@@ -22,10 +22,16 @@ const Article = ({ fields }) => (
         </div>
       </div>
     </header>
-    <article role="main" className="blog-post">
-      <RichText field={fields.intro} />
-      <RichText field={fields.body} />
-    </article>
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <article role="main" className="blog-post">
+            <RichText field={fields.intro} />
+            <RichText field={fields.body} />
+          </article>
+        </div>
+      </div>
+    </div>
   </div>
 );
 

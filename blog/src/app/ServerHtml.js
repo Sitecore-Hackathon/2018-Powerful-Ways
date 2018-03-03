@@ -10,8 +10,10 @@ const ServerHtml = ({ component, initialState, distPath }) => {
   return (
     <html>
       <head>
-        <link rel="stylesheet" href={`${distPath}client.css`} />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
         <link rel="stylesheet" href={`${distPath}vendor-client.css`} />
+        <link rel="stylesheet" href={`${distPath}client.css`} />
       </head>
       <body>
         <div id="app" dangerouslySetInnerHTML={{ __html: content }} />
