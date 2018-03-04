@@ -12,15 +12,4 @@ For the Sitecore Hackathon 2018 purposes, a demo module is also provided. It use
 
 Continue to the [documentation](documentation) for prerequisites, installation and usage instructions or watch the video.
 
-[![Powerful Ways JSS Blog Feature Module and Demo Video](https://img.youtube.com/vi/tamNwsiTMWg/0.jpg)](https://www.youtube.com/watch?v=tamNwsiTMWg)
-
-## Entry Submission Requirements 
-
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - How does the end user use the Module?
-  - Screenshots, etc.
-
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+[![Powerful Ways JSS Blog Feature Module and Demo Video](https://img.youtube.com/vi/rmdaRxyL4vM/0.jpg)](https://www.youtube.com/watch?v=rmdaRxyL4vM)

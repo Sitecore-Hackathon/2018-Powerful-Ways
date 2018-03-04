@@ -37,6 +37,8 @@ This module has the following dependencies:
 
 After the publish, the website should be up and running. Ready to be accessed by visitors and edited by authors.
 
+Note: You may have a no layout error on the published website. An iisreset fixes the error.
+
 ## Usage
 
 ### Visitors
@@ -53,4 +55,4 @@ Watch the video below for detailed instructions.
 
 ## Video
 
-[![Powerful Ways JSS Blog Feature Module and Demo Video](https://img.youtube.com/vi/tamNwsiTMWg/0.jpg)](https://www.youtube.com/watch?v=tamNwsiTMWg)
+[![Powerful Ways JSS Blog Feature Module and Demo Video](https://img.youtube.com/vi/rmdaRxyL4vM/0.jpg)](https://www.youtube.com/watch?v=rmdaRxyL4vM)
